@@ -213,8 +213,12 @@ function PlasmicDdfd__RenderFunc(props: {
       <Video
         data-plasmic-name={"htmlVideo"}
         data-plasmic-override={overrides.htmlVideo}
+        autoPlay={true}
         className={classNames("__wab_instance", sty.htmlVideo)}
         controls={true}
+        loop={true}
+        muted={true}
+        playsInline={true}
         src={
           "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm" as const
         }
